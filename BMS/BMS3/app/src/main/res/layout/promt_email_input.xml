@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b92eae83">
+
+    <TextView
+        android:text="Forgot Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tvPromtEmail"
+        android:textColor="#ffffff" />
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditText_PromptEmail"
+        android:hint="Enter userid"
+        android:textColor="#9202522f"
+        android:textColorHint="#e03bbe91"
+        android:background="#87ffffff"
+        android:autoText="false">
+        <requestFocus/>
+    </EditText>
+
+</LinearLayout>
